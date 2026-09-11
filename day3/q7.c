@@ -14,20 +14,12 @@ int main(){
             printf("%d is gretest.", c);
         }
     }
-    else if(b>a){
+    else{
         if(b>c){
             printf("%d is gretest.", b);
         }
         else{
             printf("%d is gretest.", c);
-        }
-    }
-    else if(c>a){
-        if(c>b){
-            printf("%d is gretest.", c);
-        }
-        else{
-            printf("%d is gretest.", b);
         }
     }
     return 0;
